@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Prerana Ayachit | Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">PA</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="nav-link">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#achievements" class="nav-link">Achievements</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#gallery" class="nav-link">Gallery</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <button class="theme-toggle" id="themeToggle" title="Toggle dark mode">
+        <i class="fas fa-moon" id="themeIcon"></i>
+      </button>
+      <button class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HOME ===== -->
+  <section id="home" class="hero">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-text animate-fade-up">
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1 class="hero-name">Prerana<br><span>Ayachit</span></h1>
+        <p class="hero-tagline">Tech Enthusiast · AI Explorer · Creative Problem Solver</p>
+        <p class="hero-intro">A passionate student driven by technology, innovation, and the desire to create solutions that make a difference.</p>
+        <div class="hero-cta">
+          <a href="#about" class="btn btn-primary">Explore My Journey</a>
+          <a href="#contact" class="btn btn-outline">Get In Touch</a>
+        </div>
+      </div>
+      <div class="hero-image animate-fade-left">
+        <div class="image-frame">
+          <img src="assets/images/profile.jpg" alt="Prerana Ayachit" onerror="this.src='https://via.placeholder.com/380x420/e8d5c4/8b6f5e?text=Prerana+Ayachit'" />
+          <div class="image-decoration"></div>
+        </div>
+        <div class="floating-badge badge-1"><i class="fas fa-brain"></i> AI Explorer</div>
+        <div class="floating-badge badge-2"><i class="fas fa-code"></i> Web Dev</div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Get to know me</span>
+        <h2 class="section-title">About Me</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-card animate-on-scroll" data-delay="0">
+          <div class="card-icon"><i class="fas fa-graduation-cap"></i></div>
+          <h3>Education</h3>
+          <div class="edu-item">
+            <strong>MIT Vishwaprayag University</strong>
+            <span>Solapur · Current</span>
+            <p>B.Tech in Computer Science / Technology</p>
+          </div>
+          <div class="edu-item">
+            <strong>St. Joseph High School</strong>
+            <span>Previous Education</span>
+            <p>Science & Technology Stream</p>
+          </div>
+        </div>
+        <div class="about-card animate-on-scroll" data-delay="100">
+          <div class="card-icon"><i class="fas fa-lightbulb"></i></div>
+          <h3>Interests</h3>
+          <ul class="interest-list">
+            <li><i class="fas fa-globe"></i> Web Development (HTML, CSS, JS)</li>
+            <li><i class="fas fa-robot"></i> Artificial Intelligence</li>
+            <li><i class="fas fa-palette"></i> UI/UX Design</li>
+            <li><i class="fas fa-trophy"></i> Tech Competitions</li>
+          </ul>
+        </div>
+        <div class="about-card animate-on-scroll" data-delay="200">
+          <div class="card-icon"><i class="fas fa-bullseye"></i></div>
+          <h3>Goals</h3>
+          <p>To build a successful career in technology, creating innovative solutions that solve real-world problems. I aim to master AI, software development, and contribute meaningfully to the tech industry.</p>
+        </div>
+        <div class="about-card animate-on-scroll" data-delay="300">
+          <div class="card-icon"><i class="fas fa-star"></i></div>
+          <h3>Strengths</h3>
+          <div class="strength-grid">
+            <div class="strength-item"><i class="fas fa-bolt"></i> Quick Learner</div>
+            <div class="strength-item"><i class="fas fa-puzzle-piece"></i> Problem Solver</div>
+            <div class="strength-item"><i class="fas fa-wand-magic-sparkles"></i> Creative Thinker</div>
+            <div class="strength-item"><i class="fas fa-users"></i> Team Player</div>
+            <div class="strength-item"><i class="fas fa-fire"></i> Self-Motivated</div>
+            <div class="strength-item"><i class="fas fa-heart"></i> Dedicated</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skills Bar -->
+      <div class="skills-section animate-on-scroll">
+        <h3 class="skills-title">Technical Skills</h3>
+        <div class="skills-bars">
+          <div class="skill-bar">
+            <div class="skill-info"><span>HTML & CSS</span><span>85%</span></div>
+            <div class="bar"><div class="bar-fill" data-width="85"></div></div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-info"><span>JavaScript</span><span>70%</span></div>
+            <div class="bar"><div class="bar-fill" data-width="70"></div></div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-info"><span>MATLAB</span><span>65%</span></div>
+            <div class="bar"><div class="bar-fill" data-width="65"></div></div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-info"><span>Artificial Intelligence (Basics)</span><span>75%</span></div>
+            <div class="bar"><div class="bar-fill" data-width="75"></div></div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-info"><span>Design Thinking</span><span>80%</span></div>
+            <div class="bar"><div class="bar-fill" data-width="80"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ACHIEVEMENTS ===== -->
+  <section id="achievements" class="section achievements">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What I've accomplished</span>
+        <h2 class="section-title">Achievements</h2>
+      </div>
+
+      <div class="achievements-grid">
+
+        <!-- AI4A -->
+        <div class="achievement-card animate-on-scroll" data-delay="0">
+          <div class="ach-icon ai"><i class="fas fa-robot"></i></div>
+          <div class="ach-content">
+            <span class="ach-tag">Certificate</span>
+            <h3>AI4A – Artificial Intelligence for All</h3>
+            <p>Completed the AI4A program gaining foundational knowledge of AI and real-world applications. Developed an AI-based project focused on practical problem-solving using logical thinking.</p>
+            <ul class="ach-skills">
+              <li>Intro to AI & Applications</li>
+              <li>Data & Decision Making</li>
+              <li>Hands-on Project Development</li>
+            </ul>
+            <div class="cert-image-placeholder">
+              <img src="assets/certificates/ai4a.jpg" alt="AI4A Certificate" onerror="this.parentElement.innerHTML='<div class=\'cert-placeholder\'><i class=\'fas fa-certificate\'></i><span>AI4A Certificate</span></div>'" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Design Thinking -->
+        <div class="achievement-card animate-on-scroll" data-delay="100">
+          <div class="ach-icon design"><i class="fas fa-lightbulb"></i></div>
+          <div class="ach-content">
+            <span class="ach-tag">Project</span>
+            <h3>Design Thinking – Mobile Addiction</h3>
+            <p>Worked on the problem of increasing mobile addiction among campus students. Followed all design thinking stages: Empathize, Define, Ideate, Prototype, and Test to create practical user-friendly solutions.</p>
+            <ul class="ach-skills">
+              <li>User Research & Empathy</li>
+              <li>Problem Definition</li>
+              <li>Prototype & Testing</li>
+            </ul>
+            <div class="cert-image-placeholder">
+              <img src="assets/certificates/design-thinking.jpg" alt="Design Thinking Certificate" onerror="this.parentElement.innerHTML='<div class=\'cert-placeholder\'><i class=\'fas fa-certificate\'></i><span>Design Thinking Certificate</span></div>'" />
+            </div>
+          </div>
+        </div>
+
+        <!-- ACE Project -->
+        <div class="achievement-card animate-on-scroll" data-delay="200">
+          <div class="ach-icon ace"><i class="fas fa-cogs"></i></div>
+          <div class="ach-content">
+            <span class="ach-tag">Project</span>
+            <h3>ACE Project – Applied Learning</h3>
+            <p>Completed the ACE (Applied/Active Learning) project, applying theoretical concepts to practical situations. Gained hands-on experience improving understanding of technical concepts through real implementation.</p>
+            <ul class="ach-skills">
+              <li>Practical Application</li>
+              <li>Teamwork & Collaboration</li>
+              <li>Project Planning & Execution</li>
+            </ul>
+            <div class="cert-image-placeholder">
+              <img src="assets/certificates/ace.jpg" alt="ACE Certificate" onerror="this.parentElement.innerHTML='<div class=\'cert-placeholder\'><i class=\'fas fa-certificate\'></i><span>ACE Certificate</span></div>'" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Coursera -->
+        <div class="achievement-card animate-on-scroll" data-delay="300">
+          <div class="ach-icon coursera"><i class="fas fa-laptop-code"></i></div>
+          <div class="ach-content">
+            <span class="ach-tag">Online Certification</span>
+            <h3>Coursera Certification</h3>
+            <p>Completed online technology courses on Coursera to enhance knowledge beyond the classroom. Gained additional technical knowledge and improved self-learning ability with structured online education.</p>
+            <ul class="ach-skills">
+              <li>Technology Topics</li>
+              <li>Self-Learning Discipline</li>
+              <li>Online Course Completion</li>
+            </ul>
+            <div class="cert-image-placeholder">
+              <img src="assets/certificates/coursera.jpg" alt="Coursera Certificate" onerror="this.parentElement.innerHTML='<div class=\'cert-placeholder\'><i class=\'fas fa-certificate\'></i><span>Coursera Certificate</span></div>'" />
+            </div>
+          </div>
+        </div>
+
+        <!-- NetCAD / Networking -->
+        <div class="achievement-card animate-on-scroll" data-delay="400">
+          <div class="ach-icon netcad"><i class="fas fa-network-wired"></i></div>
+          <div class="ach-content">
+            <span class="ach-tag">Certification</span>
+            <h3>NetCAD – Networking Fundamentals</h3>
+            <p>Gained foundational knowledge in computer networking through the NetCAD program. Learned how data is transmitted across networks and developed a basic understanding of internet technology.</p>
+            <ul class="ach-skills">
+              <li>Networking Fundamentals</li>
+              <li>Data Transmission Concepts</li>
+              <li>Internet Technology Basics</li>
+            </ul>
+            <div class="cert-image-placeholder">
+              <img src="assets/certificates/netcad.jpg" alt="NetCAD Certificate" onerror="this.parentElement.innerHTML='<div class=\'cert-placeholder\'><i class=\'fas fa-certificate\'></i><span>NetCAD Certificate</span></div>'" />
+            </div>
+          </div>
+        </div>
+
+        <!-- MATLAB -->
+        <div class="achievement-card animate-on-scroll" data-delay="450">
+          <div class="ach-icon matlab"><i class="fas fa-chart-line"></i></div>
+          <div class="ach-content">
+            <span class="ach-tag">Technical Skill</span>
+            <h3>MATLAB Programming</h3>
+            <p>Gained hands-on experience in MATLAB for numerical computation, data analysis, and simulation. Performed basic programming tasks, mathematical calculations, and data visualization.</p>
+            <ul class="ach-skills">
+              <li>MATLAB Programming</li>
+              <li>Data Visualization</li>
+              <li>Mathematical Modeling</li>
+            </ul>
+            <div class="cert-image-placeholder">
+              <img src="assets/certificates/matlab.jpg" alt="MATLAB Certificate" onerror="this.parentElement.innerHTML='<div class=\'cert-placeholder\'><i class=\'fas fa-certificate\'></i><span>MATLAB Achievement</span></div>'" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Yuva AI -->
+        <div class="achievement-card animate-on-scroll" data-delay="500">
+          <div class="ach-icon yuva"><i class="fas fa-rocket"></i></div>
+          <div class="ach-content">
+            <span class="ach-tag">Program Participation</span>
+            <h3>Yuva AI Initiative</h3>
+            <p>Participated in the Yuva AI initiative, which introduces students to Artificial Intelligence and modern technologies. Improved awareness of AI applications and strengthened technical foundation in emerging tech.</p>
+            <ul class="ach-skills">
+              <li>AI Awareness</li>
+              <li>Emerging Technologies</li>
+              <li>Technical Foundation</li>
+            </ul>
+            <div class="cert-image-placeholder">
+              <img src="assets/certificates/yuva-ai.jpg" alt="Yuva AI Certificate" onerror="this.parentElement.innerHTML='<div class=\'cert-placeholder\'><i class=\'fas fa-certificate\'></i><span>Yuva AI Certificate</span></div>'" />
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="section projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What I've built</span>
+        <h2 class="section-title">Projects</h2>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card animate-on-scroll" data-delay="0">
+          <div class="project-image">
+            <img src="assets/projects/ai4a-project.jpg" alt="AI Project" onerror="this.src='https://via.placeholder.com/400x220/1a1a2e/e8d5c4?text=AI4A+Project'"/>
+            <div class="project-overlay">
+              <a href="#" class="project-link" title="View Project"><i class="fas fa-external-link-alt"></i></a>
+              <a href="#" class="project-link" title="View Code"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-tag">AI / Machine Learning</span>
+            <h3>AI4A – Real-World AI Solution</h3>
+            <p>An AI-based project developed as part of the AI4A program. Focused on solving a practical problem using logical thinking and foundational AI concepts.</p>
+            <div class="tech-stack">
+              <span>Python</span><span>AI Concepts</span><span>Data Analysis</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card animate-on-scroll" data-delay="100">
+          <div class="project-image">
+            <img src="assets/projects/design-thinking-project.jpg" alt="Design Thinking Project" onerror="this.src='https://via.placeholder.com/400x220/2d1b69/e8d5c4?text=Design+Thinking+Project'"/>
+            <div class="project-overlay">
+              <a href="#" class="project-link" title="View Project"><i class="fas fa-external-link-alt"></i></a>
+              <a href="#" class="project-link" title="View Code"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-tag">UX / Research</span>
+            <h3>Reducing Mobile Addiction on Campus</h3>
+            <p>A Design Thinking project addressing mobile addiction among students. Covered all DT stages — empathize, define, ideate, prototype, and test — to deliver practical solutions.</p>
+            <div class="tech-stack">
+              <span>Design Thinking</span><span>User Research</span><span>Prototyping</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card animate-on-scroll" data-delay="200">
+          <div class="project-image">
+            <img src="assets/projects/ace-project.jpg" alt="ACE Project" onerror="this.src='https://via.placeholder.com/400x220/0d3b66/e8d5c4?text=ACE+Project'"/>
+            <div class="project-overlay">
+              <a href="#" class="project-link" title="View Project"><i class="fas fa-external-link-alt"></i></a>
+              <a href="#" class="project-link" title="View Code"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-tag">Applied Learning</span>
+            <h3>ACE – Applied Technical Project</h3>
+            <p>An applied learning project bridging theoretical concepts with real-world implementation. Focused on teamwork, planning, and executing technical ideas from start to finish.</p>
+            <div class="tech-stack">
+              <span>Team Collaboration</span><span>Technical Implementation</span><span>Problem Solving</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card animate-on-scroll" data-delay="300">
+          <div class="project-image">
+            <img src="assets/projects/portfolio.jpg" alt="Portfolio" onerror="this.src='https://via.placeholder.com/400x220/4a0e8f/e8d5c4?text=This+Portfolio'"/>
+            <div class="project-overlay">
+              <a href="#" class="project-link" title="View Project"><i class="fas fa-external-link-alt"></i></a>
+              <a href="https://github.com/PreranAayachit" class="project-link" title="View Code"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-tag">Web Development</span>
+            <h3>Personal Portfolio Website</h3>
+            <p>A fully responsive personal portfolio website built with HTML, CSS, and JavaScript. Features dark mode, animated sections, skill bars, gallery, and contact form — all from scratch.</p>
+            <div class="tech-stack">
+              <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY ===== -->
+  <section id="gallery" class="section gallery">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Memories & Milestones</span>
+        <h2 class="section-title">Gallery</h2>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="gallery-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="certificates">Certificates</button>
+        <button class="filter-btn" data-filter="events">Events</button>
+        <button class="filter-btn" data-filter="photos">Photos</button>
+      </div>
+
+      <div class="gallery-grid" id="galleryGrid">
+        <div class="gallery-item animate-on-scroll" data-category="photos">
+          <img src="assets/images/profile.jpg" alt="Prerana" onerror="this.src='https://via.placeholder.com/300x300/e8d5c4/8b6f5e?text=Profile+Photo'"/>
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="gallery-item animate-on-scroll" data-category="certificates">
+          <img src="assets/certificates/ai4a.jpg" alt="AI4A Certificate" onerror="this.src='https://via.placeholder.com/300x200/1a1a2e/e8d5c4?text=AI4A+Certificate'"/>
+          <div class="gallery-overlay"><i class="fas fa-expand"></i><span>AI4A Certificate</span></div>
+        </div>
+        <div class="gallery-item animate-on-scroll" data-category="certificates">
+          <img src="assets/certificates/coursera.jpg" alt="Coursera Certificate" onerror="this.src='https://via.placeholder.com/300x200/2d1b69/e8d5c4?text=Coursera+Certificate'"/>
+          <div class="gallery-overlay"><i class="fas fa-expand"></i><span>Coursera Certificate</span></div>
+        </div>
+        <div class="gallery-item animate-on-scroll" data-category="certificates">
+          <img src="assets/certificates/netcad.jpg" alt="NetCAD Certificate" onerror="this.src='https://via.placeholder.com/300x200/0d3b66/e8d5c4?text=NetCAD+Certificate'"/>
+          <div class="gallery-overlay"><i class="fas fa-expand"></i><span>NetCAD Certificate</span></div>
+        </div>
+        <div class="gallery-item animate-on-scroll" data-category="certificates">
+          <img src="assets/certificates/yuva-ai.jpg" alt="Yuva AI Certificate" onerror="this.src='https://via.placeholder.com/300x200/4a0e8f/e8d5c4?text=Yuva+AI+Certificate'"/>
+          <div class="gallery-overlay"><i class="fas fa-expand"></i><span>Yuva AI Certificate</span></div>
+        </div>
+        <div class="gallery-item animate-on-scroll" data-category="certificates">
+          <img src="assets/certificates/matlab.jpg" alt="MATLAB" onerror="this.src='https://via.placeholder.com/300x200/1a3a1a/d4e8d4?text=MATLAB+Achievement'"/>
+          <div class="gallery-overlay"><i class="fas fa-expand"></i><span>MATLAB Achievement</span></div>
+        </div>
+        <div class="gallery-item animate-on-scroll" data-category="events">
+          <img src="assets/images/event1.jpg" alt="Event" onerror="this.src='https://via.placeholder.com/300x200/3a1a1a/e8d4d4?text=Event+Photo'"/>
+          <div class="gallery-overlay"><i class="fas fa-expand"></i><span>Tech Event</span></div>
+        </div>
+        <div class="gallery-item animate-on-scroll" data-category="events">
+          <img src="assets/images/event2.jpg" alt="Event 2" onerror="this.src='https://via.placeholder.com/300x200/1a2a3a/d4dce8?text=Campus+Event'"/>
+          <div class="gallery-overlay"><i class="fas fa-expand"></i><span>Campus Event</span></div>
+        </div>
+        <div class="gallery-item animate-on-scroll" data-category="photos">
+          <img src="assets/images/photo2.jpg" alt="Photo" onerror="this.src='https://via.placeholder.com/300x300/3a2a1a/e8dcd4?text=Photo'"/>
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose"><i class="fas fa-times"></i></button>
+    <button class="lightbox-prev" id="lightboxPrev"><i class="fas fa-chevron-left"></i></button>
+    <button class="lightbox-next" id="lightboxNext"><i class="fas fa-chevron-right"></i></button>
+    <img src="" alt="" id="lightboxImg" />
+    <span id="lightboxCaption"></span>
+  </div>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Let's connect</span>
+        <h2 class="section-title">Contact Me</h2>
+      </div>
+      <div class="contact-wrapper">
+        <div class="contact-info animate-on-scroll">
+          <h3>Get In Touch</h3>
+          <p>I'm always open to opportunities, collaborations, and conversations. Feel free to reach out!</p>
+          <div class="contact-links">
+            <a href="mailto:ayachitprerana@gmail.com" class="contact-link">
+              <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+              <div>
+                <span>Email</span>
+                <strong>ayachitprerana@gmail.com</strong>
+              </div>
+            </a>
+            <a href="tel:9270235211" class="contact-link">
+              <div class="contact-icon"><i class="fas fa-phone"></i></div>
+              <div>
+                <span>Phone</span>
+                <strong>+91 9270235211</strong>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/prerana-ayachit" target="_blank" class="contact-link">
+              <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
+              <div>
+                <span>LinkedIn</span>
+                <strong>Prerana Ayachit</strong>
+              </div>
+            </a>
+            <a href="https://github.com/PreranAayachit" target="_blank" class="contact-link">
+              <div class="contact-icon"><i class="fab fa-github"></i></div>
+              <div>
+                <span>GitHub</span>
+                <strong>PreranAayachit</strong>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form animate-on-scroll" id="contactForm" data-delay="200">
+          <div class="form-group">
+            <input type="text" id="nameInput" placeholder="Your Name" required />
+            <label for="nameInput">Your Name</label>
+          </div>
+          <div class="form-group">
+            <input type="email" id="emailInput" placeholder="Your Email" required />
+            <label for="emailInput">Your Email</label>
+          </div>
+          <div class="form-group">
+            <input type="text" id="subjectInput" placeholder="Subject" />
+            <label for="subjectInput">Subject</label>
+          </div>
+          <div class="form-group">
+            <textarea id="messageInput" rows="4" placeholder="Your Message" required></textarea>
+            <label for="messageInput">Message</label>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+          <div class="form-success" id="formSuccess">
+            <i class="fas fa-check-circle"></i> Message sent! I'll get back to you soon.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Prerana Ayachit · Built with <i class="fas fa-heart"></i> using HTML, CSS & JavaScript</p>
+      <div class="footer-socials">
+        <a href="mailto:ayachitprerana@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/prerana-ayachit" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/PreranAayachit" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop"><i class="fas fa-arrow-up"></i></button>
+
+  <script src="script.js"></script>
+</body>
+</html>
